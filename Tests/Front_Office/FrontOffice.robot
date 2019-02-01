@@ -8,7 +8,7 @@ Suite Setup    CommonWeb.Begin Web Test
 Suite Teardown    CommonWeb.End Web Test
 *** Variables ***
 ${FRONT_OFFICE_URL} =  http://www.robotframeworktutorial.com/front-office
-${BROWSER} =  chrome
+${BROWSER} =  firefox
 
 *** Test Cases ***
 Should be able to access "Team" page
