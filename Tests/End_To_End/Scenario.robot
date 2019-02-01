@@ -1,10 +1,11 @@
 *** Settings ***
-Library    Remote    http://134.157.27.161:8270       WITH NAME    Example1
+
 
 Documentation  This is my end to end suite
 Resource  ../../Resources/BackOffice/BackOfficeApp.robot
 Resource    ../../Resources/FrontOffice/FrontOfficeAPP.robot
 Resource  ../../Resources/Common/CommonWeb.robot
+
 Test Setup  Begin Web Test
 Test Teardown  End Web Test
 

@@ -9,7 +9,7 @@ Test Teardown  End Web Test
 
 *** Variables ***
 ${BROWSER} =  chrome
-${URL} =  http://www.robotframeworktutorial.com/back-office
+${BACK_OFFICE_URL} =  http://www.robotframeworktutorial.com/back-office
 
 *** Test Cases ***
 Should be able to access "Landing" page
