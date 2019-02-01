@@ -7,7 +7,7 @@ Resource    ../../Resources/Common/CommonWeb.robot
 Suite Setup    CommonWeb.Begin Web Test
 Suite Teardown    CommonWeb.End Web Test
 *** Variables ***
-${URL} =  http://www.robotframeworktutorial.com/front-office
+${FRONT_OFFICE_URL} =  http://www.robotframeworktutorial.com/front-office
 ${BROWSER} =  chrome
 
 *** Test Cases ***
