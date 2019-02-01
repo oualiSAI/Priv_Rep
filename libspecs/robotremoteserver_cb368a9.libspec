@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec name="robotremoteserver" type="library" format="ROBOT" generated="20190130 20:13:37">
+<version>1.1</version>
+<scope>global</scope>
+<namedargs>yes</namedargs>
+<doc>Documentation for library ``robotremoteserver``.</doc>
+<kw name="Stop Remote Server">
+<arguments>
+<arg>uri</arg>
+<arg>log=True</arg>
+</arguments>
+<doc>Stop remote server unless server has disabled stopping.
+
+:param uri:  Server address.
+:param log:  Log status message or not.
+:return      ``True`` if server was stopped or it was not running in
+             the first place, ``False`` otherwise.</doc>
+<tags>
+</tags>
+</kw>
+<kw name="Test Remote Server">
+<arguments>
+<arg>uri</arg>
+<arg>log=True</arg>
+</arguments>
+<doc>Test is remote server running.
+
+:param uri:  Server address.
+:param log:  Log status message or not.
+:return      ``True`` if server is running, ``False`` otherwise.</doc>
+<tags>
+</tags>
+</kw>
+</keywordspec>

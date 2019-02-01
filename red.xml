@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectConfiguration>
+    <configVersion>2</configVersion>
+    <relativeTo>WORKSPACE</relativeTo>
+    <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="C:/Users/ouali/AppData/Local/Programs/Python/Python36/Lib/site-packages"/>
+    <referencedLibrary type="PYTHON" name="robotremoteserver" path="C:/Users/ouali/AppData/Local/Programs/Python/Python36/Lib/site-packages"/>
+    <pythonpath/>
+    <classpath/>
+    <remoteLocations uri="http://127.0.0.1:8270/RPC2/"/>
+    <remoteLocations uri="http://127.0.0.1:8270/"/>
+    <remoteLocations uri="http://192.168.43.104:8270/"/>
+    <remoteLocations uri="http://134.157.27.161:8270/"/>
+    <excludedForValidation/>
+    <isValidatedFileSizeCheckingEnabled>true</isValidatedFileSizeCheckingEnabled>
+    <validatedFileMaxSize>1024</validatedFileMaxSize>
+    <isReferencedLibrariesAutoReloadEnabled>true</isReferencedLibrariesAutoReloadEnabled>
+    <isReferencedLibrariesAutoDiscoveringEnabled>true</isReferencedLibrariesAutoDiscoveringEnabled>
+    <isLibrariesAutoDiscoveringSummaryWindowEnabled>false</isLibrariesAutoDiscoveringSummaryWindowEnabled>
+</projectConfiguration>
