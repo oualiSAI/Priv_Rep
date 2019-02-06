@@ -8,7 +8,7 @@ Test Teardown  End Web Test
 # robot -d results tests/BackOffice/Back_Office.robot
 
 *** Variables ***
-${BROWSER} =  firefox
+${BROWSER} =  chrome
 ${BACK_OFFICE_URL} =  http://www.robotframeworktutorial.com/back-office
 
 *** Test Cases ***
